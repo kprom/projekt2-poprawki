@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="title">
+        <img class="logo" src="images/panda.jpg" alt="" />
+        <h1 class="heading">CURRENCY CONVERTER</h1>
+      </header>
+      <main>
+        <div class="values">
+          <input class="amount-Input" id="amountInput" type="number" min="0" />
+          <select id="valueSelect">
+            <option value="EUR" id="eur-select">EUR</option>
+            <option value="USD" id="eur-select">USD</option>
+            <option value="CHF" id="eur-select">CHF</option>
+          </select>
+        </div>
+        <div class="button-position">
+          <button class="convert-button" id="convertButton">CONVERT</button>
+        </div>
+      </main>
+      <footer>
+        <p class="paragraph">Converted amount:</p>
+        <div class="result" id="result"></div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
